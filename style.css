@@ -5,38 +5,109 @@
 html
 {
   background-color: #474747;
-  font-family: monospace;}
+  font-family: monospace;
+  font-size: 100;
+}
 
-/* for mobile phone */
 .welcome
 {padding: 20px;}
-.welcome h1
-{font-size: 30px;}
-.welcome h3 { margin-top: 3%; font-size: 30px; }
-.welcome p {font-size: 25px;}
+
 .welcome img
 {
   float: left;
   border-radius: 100%;
   width: 200px;
   margin-right: 30px;
+  display: inline;
 }
 
 
+
+/* better buttons (from hieuhfgr) */
+a {
+  text-decoration: none;
+  transition-duration: 0.35s;
+  color: #96a6ff;
+}
+
+a:hover {
+  text-decoration: underline;
+  transition-duration: 0.5s;
+  color: #ff6054;
+}
+
+/* for mobile phone */
+.welcome h1
+{font-size: 29px;}
+
+.welcome h3 { 
+  margin-top: 3%; 
+  font-size: 30px; 
+}
+
+p#biet-danh {
+  margin-bottom: 20px;
+  font-size: 25px
+}
+
+div.about p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+div.social h4 {
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+ul {
+  padding: 20px;
+  font-size: 20px;
+}
+ul li {
+  margin-bottom: 10px;
+}
+
+a {
+  font-size: 20px;
+}
+a:hover {
+  font-size: 35px;
+}
+
+/* for tablet */
 @media only screen and (min-width: 768px) {
-  .welcome
-  {
-    padding: 20px;
+  .welcome h1
+  {font-size: 48px;}
+  .welcome h3 { 
+    font-size: 28px; 
   }
+}
+
+/* for desktop */
+@media only screen and (min-width: 1024px) {
   .welcome h1
   {font-size: 72px;}
+
   .welcome h3 {margin-top: 3%; font-size: 40px;}
-  .welcome p {font-size: 30px;}
-  .welcome img
-  {
-    float: left;
-    border-radius: 100%;
-    width: 200px;
-    margin-right: 30px;
+
+  div.social h4 {
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  
+  ul {
+    padding: 20px;
+    font-size: 23px;
+  }
+  ul li {
+    margin-bottom: 10px; 
+  }
+  
+  a {
+    font-size: 20px;
+  }
+  a:hover {
+    font-size: 35px;
   }
 }
