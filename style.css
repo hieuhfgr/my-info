@@ -75,6 +75,12 @@ a:hover {
   font-size: 35px;
 }
 
+div.project h4 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+
 /* for tablet */
 @media only screen and (min-width: 768px) {
   .welcome h1
@@ -92,6 +98,11 @@ a:hover {
   .welcome h3 {margin-top: 3%; font-size: 40px;}
 
   div.social h4 {
+    font-size: 25px;
+    margin-top: 20px;
+  }
+
+  div.project h4 {
     font-size: 25px;
     margin-top: 20px;
   }
