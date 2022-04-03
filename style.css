@@ -1,0 +1,118 @@
+* {
+  padding:0px;
+  margin: 0px;
+}
+
+html {
+  background-color: #3a3a3a;
+  color: white;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+header {
+  margin-top: 20px;
+  margin-bottom: 3px;
+}
+
+header img {
+  border-radius: 100%;
+  float: left;
+  padding: 20px;
+  display: block;
+}
+
+header .text {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+nav {
+  margin-bottom: 40px;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+a  {
+  font-size: 20px;
+  color: #3845ff;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+
+a:hover {
+  font-size: 30px;
+  text-decoration: underline;
+  transition-duration: 0.3s;
+}
+
+main {
+  margin-left: 20px;
+}
+
+article {
+  margin-bottom: 30px;
+}
+
+article#about p{
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+article#social-network li{
+  margin-left: 30px;
+  margin-bottom: 7px;
+}
+
+article#project li{
+  margin-left: 30px;
+  margin-bottom: 7px;
+}
+
+
+@media only screen and (max-width: 425px) {
+  header img { /*ăn cắp bên w3school:)) */
+    padding: 0px;
+    margin-top: 10px;
+    float: none;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  header h1 {
+    font-size: 27px;
+  }
+  header h3 {
+    font-size: 20px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  article h3{
+    font-size: 20px;
+    margin-right: 20px;
+  }
+  
+  article li {
+    font-size: 17px;
+  }
+
+  article#about p {
+    font-size: 13px;
+    margin-left: 0px;
+  }
+
+  a {
+    font-size: 15px;
+  }
+
+}
