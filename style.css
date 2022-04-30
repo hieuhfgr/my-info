@@ -10,6 +10,11 @@ html {
   font-size: 20px;
 }
 
+i {
+  color: white;
+  font-size: 1.3em;
+}
+
 header {
   margin-top: 20px;
   margin-bottom: 3px;
@@ -60,13 +65,19 @@ article {
 }
 
 article#about p{
-  margin-left: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 3px;
   font-size: 18px;
+}
+
+article#social-network ul {
+  margin-top: 30px;
 }
 
 article#social-network li{
   margin-left: 30px;
-  margin-bottom: 7px;
+  margin-bottom: 15px;
 }
 
 article#project li{
@@ -88,9 +99,13 @@ article#project li{
   }
   header h1 {
     font-size: 27px;
+    text-align: center;
+
   }
   header h3 {
     font-size: 20px;
+    text-align: center;
+
   }
 
   nav {
