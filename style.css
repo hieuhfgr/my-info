@@ -85,6 +85,10 @@ article#project li{
   margin-bottom: 7px;
 }
 
+.hidden-text {
+  color: #3a3a3a;
+}
+
 
 @media only screen and (max-width: 425px) {
   header img { /*ăn cắp bên w3school:)) */
